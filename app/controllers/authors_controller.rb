@@ -11,3 +11,4 @@ class AuthorsController < ApplicationController
     @post = Post.find(params[:post_id])
     render template: 'posts/show'
   end
+end 
